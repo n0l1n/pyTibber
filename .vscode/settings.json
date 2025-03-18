@@ -1,0 +1,42 @@
+    {
+        // MARK: – Python
+        "python.analysis.inlayHints.callArgumentNames": "partial",
+        "python.analysis.inlayHints.functionReturnTypes": true,
+        "python.analysis.typeCheckingMode": "basic",
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.diagnosticSeverityOverrides": {
+            "reportMissingImports": "none"
+        },
+        "python.analysis.extraPaths": [
+            "${workspaceFolder}/tibber"
+        ],
+        //"python.defaultInterpreterPath": "${workspaceFolder}/.venv-11/bin/python",
+        //"python.defaultInterpreterPath": "${workspaceFolder}/.venv-12/bin/python",
+        //"python.defaultInterpreterPath": "${workspaceFolder}/.venv-13/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        // MARK: - Formatter
+        "ruff.importStrategy": "useBundled",
+        "ruff.organizeImports": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.fixAll": "always"
+        },
+        "files.autoSave": "onFocusChange",
+        "[toml]": {
+            "editor.defaultFormatter": "tamasfe.even-better-toml"
+        },
+        "mypy-type-checker.args": [
+            "--config-file=pyproject.toml"
+        ],
+        "mypy-type-checker.path": [
+            //".venv-11/bin/mypy",
+            //".venv-12/bin/mypy",
+            //".venv-13/bin/mypy",
+        ],
+
+    }

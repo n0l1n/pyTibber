@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "ms-toolsai.jupyter",
+        "tamasfe.even-better-toml",
+        "aaron-bond.better-comments", // * Better Comments, espacialy for intended different visualizations
+        "bierner.markdown-mermaid", // Markdown
+        "ms-python.mypy-type-checker", // mypy
+    ]
+}
